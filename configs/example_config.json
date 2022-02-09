@@ -21,8 +21,8 @@
 
   "tpu_size": 8,
 
-  "bucket": "your-bucket",
-  "model_dir": "finetune_dir",
+  "bucket": "charactr-storage",
+  "model_dir": "step_383500",
 
   "train_set": "example.train.index",
   "val_set": {},
