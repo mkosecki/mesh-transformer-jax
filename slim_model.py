@@ -78,5 +78,5 @@ if __name__ == "__main__":
         suffix = "_slim_f16" if args.f16 else "_slim"
 
         for i in range(cores_per_replica):
-            write_ckpt(network.state, f"gs://{bucket}/{suffix}_{model_dir}/", i)
+            write_ckpt(network.state, f"gs://{bucket}/slim_step_383500/", i)
             print(f"written shard {i}")
