@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
             output = network.generate(batched_tokens, length, 512, {"top_p": np.ones(total_batch) * 0.9,
                                                                     "temp": np.ones(total_batch) * 0.75})
-
+            print(output)
             for idx, o in enumerate(output[1][0][:, :, 0]):
                 print(f"sample {idx}: {repr(tokenizer.decode(o))}")
 
