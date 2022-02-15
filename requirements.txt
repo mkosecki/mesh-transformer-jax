@@ -17,6 +17,6 @@ smart_open[gcs]
 func_timeout
 ftfy
 fastapi
-uvicorn
+uvicorn>=0.16.0
 lm_dataformat
 pathy
